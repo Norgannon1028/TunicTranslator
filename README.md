@@ -1,5 +1,5 @@
 # Tunic Translator
-A tool for translating English into Tunic language, which is a runic language in vedio game Tunic.
+A tool for translating English into Tunic language, which is a runic language in video game Tunic.
 
 ## Install
 
@@ -56,4 +56,4 @@ Huge credit goes to Reddit user [u/oposdeo](https://www.reddit.com/user/oposdeo/
 
 This translator was made possible with the [Epitran](https://github.com/dmort27/epitran), which is a python library for transliterating orthographic text as IPA (International Phonetic Alphabet).
 
-Also thanks for the Tunic language [vedio tutorial](https://www.bilibili.com/video/BV1n541117Pi?share_source=copy_web) given by [旭日之记忆](https://space.bilibili.com/12994).
+Also thanks for the Tunic language [video tutorial](https://www.bilibili.com/video/BV1n541117Pi?share_source=copy_web) given by [旭日之记忆](https://space.bilibili.com/12994).
