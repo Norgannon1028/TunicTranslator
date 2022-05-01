@@ -151,7 +151,11 @@ def translate_word(str):
     return code_list
 
 def translate_string(line):
-    str_list = line.replace(',',' , ').replace('.',' . ').split()
+    line=line.replace('，',',').replace(',',' , ')
+    line=line.replace('。','.').replace('.',' . ')
+    line=line.replace('？','?').replace('?',' ? ')
+    line=line.replace('！','!').replace('!',' ! ')
+    str_list = line.split()
     ret_list=[]
     for item in str_list:
         if item.isalpha():
@@ -165,11 +169,19 @@ def translate_string(line):
             if len(ret_list)!=0 and ret_list[-1] == -1:
                 ret_list.pop()
             ret_list.append(-3) #full stop
+        elif item == '!':
+            if len(ret_list)!=0 and ret_list[-1] == -1:
+                ret_list.pop()
+            ret_list.append(-4) #exclamation mark
+        elif item == '?':
+            if len(ret_list)!=0 and ret_list[-1] == -1:
+                ret_list.pop()
+            ret_list.append(-5) #question mark
         else:
             raise Exception(item + " is not supported yet")
     if len(ret_list)!=0 and ret_list[-1] == -1:
         ret_list.pop()
-    ret_list.append(-4) #\n
+    ret_list.append(-10) #\n
     
     return ret_list
 

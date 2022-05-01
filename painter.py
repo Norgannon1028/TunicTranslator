@@ -84,9 +84,25 @@ class Fox():
             self.column=0
             self.row+=1
     
-    def draw_fullstop(self):
+    def draw_full_stop(self):
         self.check_position(2)
         cv.putText (self.canvas, '.' ,(self.column*14+20+9,self.row*64+20+36), cv.FONT_HERSHEY_PLAIN, 2,1,1,cv.LINE_AA)
+        self.column+=2
+        if self.column>=self.MAX_COLUMN:
+            self.column=0
+            self.row+=1
+    
+    def draw_exclamation_mark(self):
+        self.check_position(2)
+        cv.putText (self.canvas, '!' ,(self.column*14+20+9,self.row*64+20+42), cv.FONT_HERSHEY_PLAIN, 2,1,1,cv.LINE_AA)
+        self.column+=2
+        if self.column>=self.MAX_COLUMN:
+            self.column=0
+            self.row+=1
+    
+    def draw_question_mark(self):
+        self.check_position(2)
+        cv.putText (self.canvas, '?' ,(self.column*14+20+6,self.row*64+20+42), cv.FONT_HERSHEY_PLAIN, 2,1,1,cv.LINE_AA)
         self.column+=2
         if self.column>=self.MAX_COLUMN:
             self.column=0
@@ -106,8 +122,12 @@ class Fox():
             elif item == -2:
                 self.draw_comma()
             elif item == -3:
-                self.draw_fullstop()
+                self.draw_full_stop()
             elif item == -4:
+                self.draw_exclamation_mark()
+            elif item == -5:
+                self.draw_question_mark()
+            elif item == -10:
                 self.draw_newline()
 
     
