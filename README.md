@@ -30,7 +30,7 @@ optional arguments:
                         set the number of characters per line, affect the canvas width. (Default: 25)
 ```
 
-Prepare the input file you want to translate from. Remember that only English words, commas, and full stops are supported. The translator takes  `input.txt` by default. Let's take a look:
+Prepare the input file you want to translate from. Remember that only `English words` and `,.?!` are supported. The translator takes  `input.txt` by default. Let's take a look:
 
 ```
 Tunic is an action adventure about a tiny fox in a big world. 
