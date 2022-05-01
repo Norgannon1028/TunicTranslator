@@ -55,3 +55,5 @@ Then the translator generates the Tunic language translation and stores it as an
 Huge credit goes to Reddit user [u/oposdeo](https://www.reddit.com/user/oposdeo/), who managed to decode the Tunic language, and the language reference sheet was posted [here](https://www.reddit.com/r/TunicGame/comments/tgc056/tunic_language_reference_sheet_big_spoiler/).
 
 This translator was made possible with the [Epitran](https://github.com/dmort27/epitran), which is a python library for transliterating orthographic text as IPA (International Phonetic Alphabet).
+
+Also thanks for the Tunic language [vedio tutorial](https://www.bilibili.com/video/BV1n541117Pi?share_source=copy_web) given by [旭日之记忆](https://space.bilibili.com/12994).
