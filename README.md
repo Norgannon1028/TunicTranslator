@@ -37,7 +37,7 @@ Tunic is an action adventure about a tiny fox in a big world.
 
 Explore the wilderness, 
 discover spooky ruins, 
-and fight terrible creatures from long ago.
+and fight terrible creatures from long ago!
 ```
 
 Simply run
