@@ -48,7 +48,7 @@ python translator.py
 
 Then the translator generates the Tunic language translation and stores it as an image.  The translator gives`output.jpg` by default. It looks like this:
 
-![output](.\output.jpg)
+![output](./output.jpg)
 
 ## Reference
 
