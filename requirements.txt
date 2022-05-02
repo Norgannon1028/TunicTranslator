@@ -1,3 +1,5 @@
 epitran==1.18
 numpy==1.20.3
 opencv_python==4.5.5.64
+Flask==1.1.2
+Flask-Cors==3.0.10

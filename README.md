@@ -9,7 +9,18 @@ First, you need to install all the dependencies provided by requirements,txt, si
 pip install -r ./requirements.txt
 ```
 
-Since Tunic Language is designed from English and English phonetic alphabet, you also need to install Flite to get Epitran work. We recommend that you follow the instruction on their [homepage](https://github.com/festvox/flite).
+Since Tunic Language is designed from English and English phonetic alphabet, you also need to install Flite(lex_lookup) to get Epitran work. We recommend that you obtain the source from [Flite homepage](https://github.com/festvox/flite), and follow the instruction bellow:
+```
+git clone https://github.com/festvox/flite.git
+cd flite/
+./configure && make
+./configure && make
+sudo make install
+cd testsuite
+make lex_lookup
+sudo cp lex_lookup /usr/local/bin
+```
+When installing on MacOS and other systems that use a BSD version of cp, some modification to a Makefile must be made in order to install flite-2.0.5 (between steps 3 and 4). Edit main/Makefile and change both instances of cp -pd to cp -pR. Then resume the steps above at step 4.
 
 ## Usage
 
