@@ -13,7 +13,7 @@ Since Tunic Language is designed from English and English phonetic alphabet, you
 ```
 git clone https://github.com/festvox/flite.git
 cd flite/
-./configure && make
+
 ./configure && make
 sudo make install
 cd testsuite
