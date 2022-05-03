@@ -3,6 +3,10 @@ A tool for translating English into Tunic language, which is a runic language in
 
 Tunic Translator is now available on my [github.io](https://norgannon1028.github.io/), check this out!!
 
+这是一个可以将英语翻译为Tunic文字的翻译工具！
+
+除了命令行工具外，[点我](https://norgannon1028.github.io/)还可以通过网页直接体验！
+
 ## Install
 
 First, you need to install all the dependencies provided by requirements.txt, simply run
