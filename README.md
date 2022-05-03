@@ -1,15 +1,17 @@
 # Tunic Translator
-A tool for translating English into Tunic language, which is a runic language in video game Tunic.
+A tool for translating English into Tunic language, which is a runic language in the video game Tunic.
+
+Tunic Translator is now available on my [github.io](https://norgannon1028.github.io/), check this out!!
 
 ## Install
 
-First, you need to install all the dependencies provided by requirements,txt, simply run
+First, you need to install all the dependencies provided by requirements.txt, simply run
 
 ```
 pip install -r ./requirements.txt
 ```
 
-Since Tunic Language is designed from English and English phonetic alphabet, you also need to install Flite(lex_lookup) to get Epitran work. We recommend that you obtain the source from [Flite homepage](https://github.com/festvox/flite), and follow the instruction bellow:
+Since Tunic Language is designed from English and English phonetic alphabet, you also need to install Flite(lex_lookup) to get Epitran work. We recommend that you obtain the source from [Flite homepage](https://github.com/festvox/flite), and follow the instructions below:
 ```
 git clone https://github.com/festvox/flite.git
 cd flite/
